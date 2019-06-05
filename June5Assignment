@@ -1,0 +1,30 @@
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<h1 id="title">title </h1>
+<p class="paragraph">paragraph text 1</p>
+<p class="paragraph">paragraph text 2</p>
+
+<input type="text"> </input>
+
+<ul>
+    <li> List element 1 </li>
+    <li> List element 2 </li>
+    <li> List element 3 </li>
+    <li> List element 5 </li>
+    <li> List element 6 </li>
+
+</ul>
+<script>
+$("p").css("outline","1px solid red")
+$("ul").css("outline","1px solid black")
+</script>
+
+</body>
+
+
+</html>
+
